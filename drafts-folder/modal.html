@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./styles/styles.css">
+      <title>Modal</title>
+      <script type="module" src="/js/drafts/draft-05.js"></script>
+  </head>
+<body>
+    <h1>Мастерская: модальное окно</h1>
+    <p><a href="/modal.html">на главную</a></p>
+
+    <!-- MODAL -->
+    <button class="button" data-action="open-modal">Open Modal</button>
+    <div class="backdrop js-backdrop">
+        <div class="modal">
+            <div class="modal-text-content">
+                <h2>Modal window</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Rerum eligendi recusandae alias nostrum expedita illo odit ab 
+                    rem consectetur maiores, officia ad quos est ullam excepturi quibusdam, 
+                    ex, voluptates inventore?
+                </p>
+            </div>
+            <div class="modal-close-btn-cont">
+                <button type="button" class="button" data-action="close-modal">Close</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

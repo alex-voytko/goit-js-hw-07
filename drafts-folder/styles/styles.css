@@ -1,0 +1,19 @@
+input{
+    padding: 8px;
+}
+.error{
+    border: 5px solid red;
+}
+.popup{
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin: 0 auto;
+    width: 200px;
+    transform: translateX(-50%);
+    background-color: sandybrown;
+    text-align: center
+}
+.popup_open{
+    display: block;
+}
