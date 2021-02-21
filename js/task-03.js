@@ -18,7 +18,7 @@ const images = [
 
 const imgGalleryRef = document.querySelector('#gallery');
 const createGallery = ({ url, alt }) => {
-    return `<li><img src="${url}" alt="${alt}" width="300" height="150" border="10px"></li>`;
+    return `<li><img src="${url}" alt="${alt}" width="300" height="150" border="10px" style="border-radius: 8px"></li>`;
 };
 
 const build = images.map(createGallery).join('')

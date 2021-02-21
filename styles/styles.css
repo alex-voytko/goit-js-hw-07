@@ -1,3 +1,6 @@
+body{
+  padding: 30px 30px 70px 30px;
+}
 #validation-input {
     border: 3px solid #bdbdbd;
 }
